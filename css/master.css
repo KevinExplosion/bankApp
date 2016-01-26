@@ -1,3 +1,16 @@
+input{
+  border: none;
+  border-bottom: 1px solid gray;
+
+}
+
+#accountBalanceForm{
+  font-size: 30px;
+}
+
+#balanceFormDollar{
+  font-size: 30px;
+}
 h3{
   text-align: center;
 }

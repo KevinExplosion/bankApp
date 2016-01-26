@@ -21,7 +21,7 @@
           <label for="bankName">Enter Name</label>
           <input type="text" id="bankName">
           <label for="bankInitialDeposit">Initial Deposit</label>
-          <input type="text" id="bankInitialDeposit">
+          $<input type="text" id="bankInitialDeposit" >
           <br>
           <br>
           <button type="submit" class="btn btn-danger" id="createAccount">Create Account</button>
@@ -33,7 +33,7 @@
           <div class="accountBalance">
           <h2>Hello, <span id="accountName"></span></h2>
           <h3>Your Account Balance</h3>
-          <input type="text" id="accountBalanceForm">
+          <span id="balanceFormDollar">$</span><input type="text" id="accountBalanceForm" value="$" disabled>
         </div>
         </div>
         <div class="col-md-6">
@@ -46,6 +46,7 @@
           <br>
           <br>
           <button type="submit" class="btn btn-danger" id="submitAmount">Submit</button>
+          <button type="reset" class="btn btn-info" id="logOut">Log out</button>
         </div>
         </div>
       </div>

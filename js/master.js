@@ -23,9 +23,7 @@ $(document).ready(function() {
       alert("Please enter a value for all fields.");
       $("#bankName").val('')
       parseInt($("#bankInitialDeposit").val(0));
-    }else{
-    //
-
+    } else {
     //Creates BankAccount Object
     var bankAccount = new BankAccount(bank_name, initial_deposit);
 
@@ -56,4 +54,11 @@ $(document).ready(function() {
       parseInt($("#bankWithdraw").val(0));
     });
   });
+
+  $("#logOut").click(function(){
+
+    location.reload();
+
+  });
+
 });
