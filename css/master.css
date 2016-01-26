@@ -9,3 +9,18 @@ h3{
 .bankInfo{
   text-align: center;
 }
+
+
+.accountBalance, .accountDepositWithdraw {
+  border: 1px solid black;
+  padding-bottom: 100px;
+  margin-top: 20px;
+}
+.accountDepositWithdraw {
+  padding-left: 10px;
+}
+
+#accountBalanceForm{
+  margin-left: 175px;
+  min-height: 83.5px;
+}
