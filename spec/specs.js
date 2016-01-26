@@ -9,9 +9,8 @@
 
 describe("bankAccount", function(){
   it("will return true if bank account object parameters are met", function() {
-    var newBankAccount = new BankAccount("Bob", "checking", 500);
+    var newBankAccount = new BankAccount("Bob", 500);
       expect(newBankAccount.name).to.equal("Bob");
-      expect(newBankAccount.type).to.equal("checking");
       expect(newBankAccount.initialDeposit).to.equal(500);
   });
 });

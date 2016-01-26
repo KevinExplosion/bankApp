@@ -1,7 +1,16 @@
+//BDD
 
-
-function BankAccount(name, type, deposit){
+function BankAccount(name, deposit){
   this.name = name;
-  this.type = type;
   this.initialDeposit = deposit;
 }
+
+
+
+//User Interface
+
+$(document).ready(function() {
+  $("#createAccount").click(function(){
+    //click "CREATE ACCOUNT" ; resume after lunch
+  });
+});
