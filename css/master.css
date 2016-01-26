@@ -18,12 +18,13 @@ h3{
   border: 1px solid black;
   padding-bottom: 100px;
   margin-top: 20px;
+  text-align: center;
 }
 .accountDepositWithdraw {
   padding-left: 10px;
 }
 
 #accountBalanceForm{
-  margin-left: 175px;
+  /*margin-left: 175px;*/
   min-height: 83.5px;
 }
