@@ -10,6 +10,9 @@ h3{
   text-align: center;
 }
 
+.accountInfo {
+  display: none;
+}
 
 .accountBalance, .accountDepositWithdraw {
   border: 1px solid black;

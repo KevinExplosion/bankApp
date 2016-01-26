@@ -16,5 +16,9 @@ $(document).ready(function() {
     var initial_deposit = $("#bankInitialDeposit").val();
 
     var bankAccount = new BankAccount(bank_name, initial_deposit);
+    $(".bankInfo").hide();
+    $(".accountInfo").show();
+    $("#accountBalanceForm").val(initial_deposit);
+    //hide bankInfo and show accountInfo
   });
 });
